@@ -1,23 +1,24 @@
 # Site settings
-email: 
+email: "arnav@brownfingers.com"
 baseurl: ""
 paginate: 5
 paginate_path: "/blog/page-:num"
-google_analytics: 
+google_analytics: UA-92058099-1
 
 # SEO settings
-title: Trophy
+title: Arnav Puri
 description: 
 url: ""
-twitter_username: 
+twitter_username: arnavpuri
 default_img: 
 
 # Profile settings
-name: 
+name: Arnav Puri  
 profile_img: 
 profile: 
 social:
-  github: 
+  github: http://www.github.com/arnavpuri
+  facebook: http://www.fb.com/Arnavanytime
 
 # Build settings
 include: ["_categories"]
