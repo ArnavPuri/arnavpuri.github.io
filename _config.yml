@@ -8,7 +8,7 @@ google_analytics: UA-92058099-1
 # SEO settings
 title: Arnav Puri
 description: 
-url: ""
+url: "arnavpuri.github.io"
 twitter_username: arnavpuri
 default_img: 
 
@@ -18,7 +18,7 @@ profile_img:
 profile: 
 social:
   github: http://www.github.com/arnavpuri
-  facebook: http://www.fb.com/Arnavanytime
+  twitter: https://www.twitter.com/arnavpuri
 
 # Build settings
 include: ["_categories", "_projects"]
@@ -30,8 +30,8 @@ permalink: /:year/:month/:day/:title/
 sass:
   style: compressed
 
-# Gems
-gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
+# plugins
+plugins: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
 
 collections:
   projects:
