@@ -14,8 +14,8 @@ default_img:
 
 # Profile settings
 name: Arnav Puri  
-profile_img: 
-profile: 
+profile_img: "/assets/img/profile.jpg"
+profile: "Love to try new things, trying to build something"
 social:
   github: http://www.github.com/arnavpuri
   twitter: https://www.twitter.com/arnavpuri
