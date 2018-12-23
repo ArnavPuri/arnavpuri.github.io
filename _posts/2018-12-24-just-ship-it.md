@@ -6,6 +6,7 @@ categories: advice, indie maker
 description: Don't hold onto that "unique" project of yours too much.
 image: /assets/img/just-ship-it.jpg
 image-sm: /assets/img/just-ship-it.jpg
+twitter-image: {{site.url}}/assets/img/just-ship-it.jpg
 ---
 
 **Release that product already.**

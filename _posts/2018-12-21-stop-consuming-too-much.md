@@ -6,6 +6,7 @@ categories: advice, indie maker
 description: How to be sane while drowning in the sea of information?
 image: /assets/img/stop-consuming.jpg
 image-sm: /assets/img/stop-consuming-tb.jpg
+twitter-image: {{site.url}}/assets/img/stop-consuming.jpg
 ---
 
 - ### Stop consuming too much caffeine.
