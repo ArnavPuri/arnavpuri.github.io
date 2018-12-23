@@ -6,6 +6,7 @@ categories:
 description: Dont hold onto that unique project of yours too much.
 image: /assets/img/just-ship-it.jpg
 image-sm: /assets/img/just-ship-it.jpg
+comments: true
 ---
 
 **Release that product already.**

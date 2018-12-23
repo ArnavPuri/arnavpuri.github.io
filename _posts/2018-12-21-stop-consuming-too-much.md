@@ -6,6 +6,7 @@ categories:
 description: How to be sane while drowning in the sea of information?
 image: /assets/img/stop-consuming.jpg
 image-sm: /assets/img/stop-consuming-tb.jpg
+comments: true
 ---
 
 - ### Stop consuming too much caffeine.
