@@ -2,7 +2,7 @@
 layout: post
 title: "Stop consuming too much."
 date: 2018-12-21
-categories: advice, indie maker
+categories:
 description: How to be sane while drowning in the sea of information?
 image: /assets/img/stop-consuming.jpg
 image-sm: /assets/img/stop-consuming-tb.jpg

@@ -2,8 +2,8 @@
 layout: post
 title: "Just ship it"
 date: 2018-12-24
-categories: advice, indie maker
-description: Don't hold onto that "unique" project of yours too much.
+categories:
+description: Dont hold onto that unique project of yours too much.
 image: /assets/img/just-ship-it.jpg
 image-sm: /assets/img/just-ship-it.jpg
 ---
