@@ -36,3 +36,9 @@ plugins: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
 collections:
   projects:
     output: true
+
+share-links-active:
+  twitter: true
+  facebook: false
+  google: false
+  linkedin: false
