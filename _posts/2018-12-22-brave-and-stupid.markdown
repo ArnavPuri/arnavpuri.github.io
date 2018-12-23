@@ -6,7 +6,6 @@ categories:
 description: 
 image: /assets/img/brave-or-stupid.jpg
 image-sm: /assets/img/brave-or-stupid.jpg
-twitter-image: {{site.url}}/assets/img/brave-or-stupid.jpg
 ---
 
 Someone is offering you ₹ 25,00,000 (equivalent to $100,000 as per living standards) and you walk away because you are adamant to try to build something of your own. 
