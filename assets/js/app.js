@@ -107,7 +107,7 @@ var showSubscribeBox = (function () {
 
 var boxCloseButton = document.getElementById('newsletter-box-close');
 boxCloseButton.addEventListener('click', function () {
-  newsletterBox.style.transform = 'translateX(100%)';
+  newsletterBox.style.transform = 'translateX(-100%)';
 });
 
 document.addEventListener('DOMContentLoaded', function () {
