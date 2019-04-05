@@ -1,4 +1,4 @@
-var Tabs = (function() {
+var Tabs = (function () {
   var s;
 
   return {
@@ -7,29 +7,29 @@ var Tabs = (function() {
       tab: document.getElementsByClassName('tab')
     },
 
-    init: function() {
+    init: function () {
       s = this.settings;
       this.display();
       this.click();
     },
 
-    display: function() {
+    display: function () {
       if (s.tab.length) {
-        [].forEach.call(s.tab, function(tab, idx) {
-          if (idx > 0) tab.style.display = 'none';          
+        [].forEach.call(s.tab, function (tab, idx) {
+          if (idx > 0) tab.style.display = 'none';
         });
         s.tab[0].classList.add('active');
         s.tabs[0].classList.add('active');
       }
     },
 
-    click: function() {
+    click: function () {
       if (s.tabs.length) {
         var currentIdx = 0,
-            prevIdx = currentIdx;
+          prevIdx = currentIdx;
 
-        [].forEach.call(s.tabs, function(tab, idx) {
-          tab.addEventListener('click', function() {
+        [].forEach.call(s.tabs, function (tab, idx) {
+          tab.addEventListener('click', function () {
             prevIdx = currentIdx;
             currentIdx = idx;
 
@@ -49,7 +49,7 @@ var Tabs = (function() {
   }
 })();
 
-var Preview = (function() {
+var Preview = (function () {
   var s;
 
   return {
@@ -58,27 +58,27 @@ var Preview = (function() {
       post: document.getElementsByClassName('preview')
     },
 
-    init: function() {
+    init: function () {
       s = this.settings;
       this.display();
       this.mouseenter();
     },
 
-    display: function() {
+    display: function () {
       if (s.img.length) {
-        [].forEach.call(s.img, function(img, idx) {
+        [].forEach.call(s.img, function (img, idx) {
           if (idx > 0) img.style.display = 'none';
         });
       }
     },
 
-    mouseenter: function() {
+    mouseenter: function () {
       if (s.post.length) {
         var currentIdx = 0,
-            prevIdx = currentIdx;
+          prevIdx = currentIdx;
 
-        [].forEach.call(s.post, function(preview, idx) {
-          preview.addEventListener('mouseenter', function() {
+        [].forEach.call(s.post, function (preview, idx) {
+          preview.addEventListener('mouseenter', function () {
             prevIdx = currentIdx;
             currentIdx = idx;
 
@@ -98,9 +98,21 @@ var wow = new WOW({
 });
 
 var rellax = new Rellax('.rellax');
+var newsletterBox = document.getElementById('newsletter-box');
+var showSubscribeBox = (function () {
+  setTimeout(function () {
+    newsletterBox.style.transform = 'translateX(0)';
+  }, 2000);
+});
 
-document.addEventListener('DOMContentLoaded', function() {
+var boxCloseButton = document.getElementById('newsletter-box-close');
+boxCloseButton.addEventListener('click', function () {
+  newsletterBox.style.transform = 'translateX(100%)';
+});
+
+document.addEventListener('DOMContentLoaded', function () {
   Tabs.init();
   Preview.init();
   wow.init();
+  showSubscribeBox();
 });

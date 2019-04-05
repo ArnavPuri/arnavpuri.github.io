@@ -158,3 +158,62 @@ ol, ul {
   background-color: $color-alpha;
   text-shadow: none;
 }
+
+.subscription-form-container{
+  @media (max-width: $mq-md) {
+    transform: scale(0.7);
+  }
+  background-color: #fff;
+    position: fixed;
+    width: 380px;
+    right: -1px;
+    bottom: 100px;
+    border-left-style: solid;
+    border-left-width: 4px;
+    border-left-color: $color-alpha--light;
+    max-width: 100%;
+    padding: 16px 32px 28.8px;
+    padding: 1rem 2rem 1.8rem;
+    z-index: 100;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    transition-duration: 0.3s;
+    box-shadow: 11px 10px 40px rgba(0,0,0,.2);
+    .form-body{
+      position: relative;
+    }
+    #newsletter-box-close{
+      position: absolute;
+      right: -20px;
+      top: -20px;
+      font-size: 20px;
+      background: black;
+      border-radius: 50%;
+      width: 20px;
+      color: white;
+      text-align: center;
+      cursor: pointer;
+      height: 20px;
+    }
+    h1{
+      font-size:30px;
+    }
+    p{
+      line-height: 18px;
+      margin: 12px 0;
+    }
+
+    input.newsletter-field{
+      width: 100%;
+      border: 2px solid black;
+      padding: 8px;
+
+    }
+    input.newsletter-button{
+      padding: 6px;
+    font-size: 12px;
+    }
+}
+.mast h1 {
+  text-shadow: 3px 3px 0 black;
+}
