@@ -102,7 +102,7 @@ var newsletterBox = document.getElementById('newsletter-box');
 var showSubscribeBox = (function () {
   setTimeout(function () {
     newsletterBox.style.transform = 'translateX(0)';
-  }, 2000);
+  }, 10000);
 });
 
 var boxCloseButton = document.getElementById('newsletter-box-close');
